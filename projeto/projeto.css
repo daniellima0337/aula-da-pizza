@@ -1,0 +1,44 @@
+*{
+    margin:0;
+}
+@font-face{
+    font-family:font_pizza;
+    src: url(txt/panpizza.ttf);
+}
+@font-face {
+    font-family:aviola font ;
+    src: url(txt/aviola.otf);
+}
+header{ 
+   height: 500px;
+   width: 100%;;
+   background-image: url(img/pizza2.jpeg.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+nav{
+    height: 100px;
+    width: 100%;
+    
+}
+nav ul{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;   
+}
+li{
+    font-family: font_pizza;
+    font-size: 40px;
+}
+h1{
+    color: rgba(255, 188, 2, 0.925);
+    text-align: center;
+    font-family: aviola font;
+    font-size: 70px;
+    
+}
